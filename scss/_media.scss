@@ -1,0 +1,155 @@
+@media screen and (max-width: 320px) {
+    .slider-col {
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+}
+
+@media screen and (max-width: 360px) {
+    .slider-col {
+        margin-left: 35%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .slider-col {
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .slider-col {
+        margin-left: 35%;
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slider-col {
+        margin-left: 35%;
+        width: 100%;
+        flex: 0 0 30%;
+        max-width: 100%;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .slider-col {
+        margin-left: 35%;
+        width: 100%;
+        flex: 0 0 30%;
+        max-width: 100%;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+      .slider-col {
+        margin-left: 35%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .slider-col {
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 712px) {
+    .slider-col {
+        margin-left: 35%;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-col {
+        flex: 0 0 50%;
+        max-width: 80%;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .slider-col{
+        flex: 0 0 30%;
+        max-width: 30%;
+        }
+
+        .col-md-4 {
+            flex: 0 0 100%;
+            width: 100%;
+        }
+}
+
+@media screen and (max-width: 992px) {
+    .slider-col{
+    flex: 0 0 30%;
+    max-width: 40%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slider-col{
+        flex: 0 0 30%;
+        max-width: 40%;
+ }
+
+  .col-md-4 {
+    flex: 0 0 100%;
+}
+}
+
+@media screen and (max-width: 1115px) {
+    .slider-col{
+        flex: 0 0 30%;
+        max-width: 40%;
+ }
+
+  .col-md-4 {
+    flex: 0 0 100%;
+}
+}
+
+@media screen and (max-width: 1200px) {
+    .slider-col{
+        flex: 0 0 30%;
+        max-width: 40%;
+ }
+}

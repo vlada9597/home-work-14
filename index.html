@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Home-work-14</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+     <header>
+         <nav class="">
+             <ul class="nav nav-pills primary-emphasis">
+                 <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">More</a>
+                     <ul class="dropdown-menu">
+                         <li><a class="dropdown-item" href="#">About us</a></li>
+                         <li><a class="dropdown-item" href="#">Stories</a></li>
+                         <li><a class="dropdown-item" href="#">Something else here</a></li>
+                         <li><hr class="dropdown-divider"></li>
+                         <li><a class="dropdown-item" href="#">Separated link</a></li>
+                      </ul>
+                   </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Form</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+             </ul> 
+         </nav>
+     </header>
+
+     <div class="container">
+         <div class="row">
+             <!-- <div class="row d-flex flex-wrap"> -->
+                 <div class="slider-col">
+                      <div id="carouselExampleIndicators" class="carousel slide">
+                          <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 5"></button>
+                          </div>
+
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                 <img src="img/image 1.jpg" class="d-block w-100" alt="...">
+                               </div>
+
+                               <div class="carousel-item">
+                                 <img src="img/image 2.jpg" class="d-block w-100" alt="...">
+                               </div>
+
+                               <div class="carousel-item">
+                                  <img src="img/image 3.jpg" class="d-block w-100" alt="...">
+                               </div>
+
+                               <div class="carousel-item">
+                                 <img src="img/image 4.jpg" class="d-block w-100" alt="...">
+                               </div>
+
+                               <div class="carousel-item">
+                                 <img src="img/image 5.jpg" class="d-block w-100" alt="...">
+                               </div>
+                          </div>
+
+                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                         </button>
+
+                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                             <span class="visually-hidden"></span>
+                         </button>
+                      </div>
+                  </div>
+
+                   <div class="col-md-6">
+                      <div class="accordion" id="accordionPanelsStayOpenExample">
+                         <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                     Form for you
+                                  </button>
+                              </h2>
+
+                               <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                  <div class="accordion-body">
+                                      <form class="row g-3 shadow-form">
+                                          <div class="col-md-4">
+                                             <label for="validationDefault01" class="form-label">First name</label>
+                                             <input type="text" class="form-control" id="validationDefault01" value="Vlada" required>
+                                          </div>
+
+                                          <div class="col-md-4">
+                                             <label for="validationDefault02" class="form-label">Last name</label>
+                                             <input type="text" class="form-control" id="validationDefault02" value="Zoloto" required>
+                                          </div>
+
+                                          <div class="col-md-4">
+                                             <label for="validationDefaultUsername" class="form-label">Username</label>
+                                              <div class="input-group">
+                                                 <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                                 <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                                              </div>
+                                          </div>
+
+                                          <div class="col-md-4">
+                                             <label for="validationDefault03" class="form-label">City</label>
+                                             <input type="text" class="form-control" id="validationDefault03" required>
+                                          </div>
+
+                                          <div class="col-md-4">
+                                             <label for="validationDefault04" class="form-label">Region</label>
+                                             <select class="form-select" id="validationDefault04" required>
+                                                 <option selected disabled value="">Choose...</option>
+                                                 <option>...</option>
+                                                 <option>...</option>
+                                             </select>
+                                          </div>
+
+                                          <div class="col-md-4">
+                                              <label for="validationDefault05" class="form-label">Color</label>
+                                              <input type="text" class="form-control" id="validationDefault05" required>
+                                          </div>
+
+                                           <div class="col-12">
+                                              <div class="form-check">
+                                                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                                 <label class="form-check-label" for="invalidCheck2">
+                                                     Agree to terms and conditions
+                                                 </label>
+                                              </div>
+                                          </div>
+
+                                          <div class="col-12">
+                                              <button class="btn btn-primary" type="submit">Submit form</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                             </div>
+                          </div>
+                      </div>
+                 </div>
+                  <div class="col-md-4" >
+                        <h3 class="h3">The Beauty of Balance: Aesthetics in Everyday Life </h3>
+                        <p class="text">
+                         Aesthetics is more than just how things look—it's about how they make us feel. It’s the harmony in colors, the rhythm in music, the elegance of movement, and the calm of a well-organized space. Aesthetics touches every part of our lives, often in ways we don’t even notice. It shapes our mood, influences our thoughts, and helps us connect with the world around us.
+                         But true beauty doesn’t exist without balance. Just like in art or nature, life needs balance to thrive. Balancing work and rest, action and reflection, giving and receiving—this is what helps us stay grounded and healthy. Without balance, even the most beautiful things can lose their meaning.
+                         Living an aesthetic life isn’t about perfection. It’s about creating a life that feels good, looks peaceful, and flows naturally. When we keep our lives in balance, we don’t just survive—we flourish.
+                        </p>
+                   </div>
+              <!-- </div> -->
+         </div>
+     </div>
+
+       <footer class="footer">
+          <h4>Vlada Z.</h4>
+          <p> &copy; 2025. All rights reserved.</p>
+       </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
